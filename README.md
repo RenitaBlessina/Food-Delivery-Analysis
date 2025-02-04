@@ -23,6 +23,20 @@ The Food Delivery and Customer Behavior Analysis project aims to understand food
 2. **Feature Engineering**: Creating new features to capture customer behavior patterns, such as average order value, frequency of orders, time between orders, and customer segmentation.
 3. **Exploratory Data Analysis (EDA)**: Visualizing data distributions, correlations, and identifying significant patterns and trends.
 
+## Possible Sources of Bias
+
+- **Location Bias:** Bias towards or against certain delivery locations based on factors such as safety concerns, familiarity, or perceived tipping habits.
+- **Customer Bias:** Prioritization of deliveries to specific customers perceived as more generous with tips.
+- **Time-of-Day Bias:** Preferences for working during specific times of the day or week.
+- **Weather Bias:** Impact of adverse weather conditions on driver behavior.
+- **Operational Bias:** Bias in the allocation of resources and operational decisions, such as prioritizing profitability over service quality.
+
+## Visualization and Analysis
+
+1. **Line Plot:** Time taken by the driver to arrive at the restaurant in minutes for each record.
+2. **Histogram:** Distribution of time taken by the driver to arrive at the restaurant.
+3. **Kernel Density Estimation:** Smooth estimate of the probability density function for the dataset.
+
 ### Analysis Techniques
 
 1. **Random Forest Models**: To predict customer behavior and identify key patterns influencing sales conversion rates.
@@ -38,12 +52,15 @@ The Food Delivery and Customer Behavior Analysis project aims to understand food
 
 ## Results
 
+- 23.09% of the time, drivers arrive 30 minutes late for food or order pickup from a restaurant after the food is ready for pickup.
 - **Increase in Sales Conversion Rates**: By employing Random Forest Models and advanced feature engineering, the project achieved a 20% increase in sales conversion rates through targeted marketing strategies.
 - **Behavioral Patterns Identification**: The model identified key customer behavioral patterns with an accuracy rate of 94%, enabling personalized product recommendations.
 - **Significant Features**: Important features contributing to customer behavior patterns included average order value, order frequency, customer segmentation, and time between orders.
 
 ## Conclusions
 
+- This project provides valuable insights into the dynamics of meal pickups in the food delivery industry and also the customer behaviour.
+- By understanding the challenges and opportunities in this phase of the delivery process, food delivery platforms and restaurants can make informed decisions and implement effective strategies to enhance          customer satisfaction.      
 - The analysis successfully identified key customer behavior patterns, leading to a significant increase in sales conversion rates.
 - Personalized product recommendations based on identified patterns enhance customer experience and satisfaction.
 - Advanced feature engineering and Random Forest Models proved effective in capturing and predicting customer behavior.
